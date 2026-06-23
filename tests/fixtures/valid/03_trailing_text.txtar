@@ -1,0 +1,15 @@
+This block is embedded in a longer page.
+
+-- bio.md --
+I make things with code.
+
+-- agent.txtar.json --
+{
+  "$schema": "https://didvc.github.io/agent.txtar/schema/v0.1.0.schema.json",
+  "agent_txtar": "0.1.0",
+  "name": "trailing test"
+}
+
+This text comes after the closing brace of the JSON.
+The parser should discard everything from here onward.
+This simulates host-page content that follows an embedded block.

@@ -1,0 +1,23 @@
+name: Bug Report
+description: Something isn't working right
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the issue. Include your agent.txtar block if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: parser
+    attributes:
+      label: Parser / language
+      description: Which parser or language are you using?
+      placeholder: "e.g., TypeScript reference parser, custom Go implementation"

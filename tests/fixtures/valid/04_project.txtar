@@ -1,0 +1,21 @@
+Backend API for a mobile app. Agents: see below for context.
+
+-- overview.md --
+# MyApp API
+REST API, Go 1.22, PostgreSQL 16. Deployed on Fly.io.
+
+-- contributing.txt --
+Run `make test` before suggesting changes.
+Don't touch migration files directly.
+
+-- agent.txtar.json --
+{
+  "$schema": "https://didvc.github.io/agent.txtar/schema/v0.1.0.schema.json",
+  "agent_txtar": "0.1.0",
+  "name": "MyApp API",
+  "type": "project",
+  "routes": {
+    "bio": "overview.md",
+    "directives": "contributing.txt"
+  }
+}

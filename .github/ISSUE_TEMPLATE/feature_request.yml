@@ -1,0 +1,18 @@
+name: Feature Request
+description: Suggest a change or addition to the spec, registry, or parsers
+labels: [enhancement]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to see?
+      description: Describe the change. If it's a new route key, consider opening a PR to REGISTRY.md instead.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why?
+      description: What problem does this solve? What use case does it enable?
+    validations:
+      required: true

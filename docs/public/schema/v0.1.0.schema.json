@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://didvc.github.io/agent.txtar/schema/v0.1.0.schema.json",
+  "title": "agent.txtar Manifest",
+  "description": "Manifest schema for agent.txtar blocks (v0.1.0)",
+  "type": "object",
+  "required": ["$schema", "agent_txtar", "name"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri",
+      "description": "Schema URL for validation"
+    },
+    "agent_txtar": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Spec version this block conforms to (semver)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the person, project, org, or entity"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["person", "org", "bot", "project"],
+      "default": "person",
+      "description": "What kind of thing this block describes"
+    },
+    "routes": {
+      "type": "object",
+      "description": "Maps semantic roles to filenames within the archive",
+      "properties": {
+        "bio": {
+          "type": "string",
+          "description": "Background / profile / overview file"
+        },
+        "directives": {
+          "type": "string",
+          "description": "Rules and instructions for agents"
+        },
+        "verification": {
+          "type": "string",
+          "description": "Public key, DID, or signature file"
+        }
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,10 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+.ignore
+agents.md
+agent-*/
+.opencode
+blueprint.md
+samples/
+.personal/

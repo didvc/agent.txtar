@@ -1,0 +1,8 @@
+Hello, I'm a person on the internet.
+
+-- agent.txtar.json --
+{
+  "$schema": "https://didvc.github.io/agent.txtar/schema/v0.1.0.schema.json",
+  "agent_txtar": "0.1.0",
+  "name": "minimal example"
+}

@@ -1,0 +1,7 @@
+Manifest exists but is missing the required agent_txtar version key.
+
+-- agent.txtar.json --
+{
+  "$schema": "https://didvc.github.io/agent.txtar/schema/v0.1.0.schema.json",
+  "name": "missing version"
+}
