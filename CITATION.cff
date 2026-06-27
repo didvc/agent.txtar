@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: agent.txtar
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - alias: didvc
+repository-code: https://github.com/didvc/agent.txtar
+url: https://didvc.github.io/agent.txtar/
+license: MIT
+version: 0.1.0
+date-released: 2026-06-28
+abstract: >
+  agent.txtar is a portable, embeddable text block that tells AI agents what they
+  need to know — about a person, project, org, or rules. Built on Go's txtar archive
+  format, it bundles multiple virtual files inside a single plain-text block that can
+  be pasted anywhere: a GitHub README, a blog sidebar, a social media bio, or served
+  as a standalone file. Agents parse the structured manifest inside; humans just see
+  readable text.
+keywords:
+  - ai-agents
+  - llm
+  - txtar
+  - specification
+  - text-format
+  - structured-data
+  - portable
+  - context-protocol
+  - agentic
+  - schema
