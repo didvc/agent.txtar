@@ -90,3 +90,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Want to register a new route key? See [R
 
 Documentation: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) -- use it freely, just credit the source.
 Code: [MIT](LICENSE) -- do whatever you want.
+
+<!-- BEGIN gh-mutual-linking -->
+
+---
+
+### Related projects
+
+- [**ai-bwrap**](https://github.com/didvc/ai-bwrap) — Run AI coding agents (Claude Code, opencode, Grok, ...) inside a bubblewrap sandbox — one wrapper, any agent.
+- [**opencode-bwrap**](https://github.com/didvc/opencode-bwrap) — Run opencode inside a bubblewrap sandbox — confine AI file access to your current working directory
+- [**claude-code-jsonl-editor**](https://github.com/didvc/claude-code-jsonl-editor) — 🚀 Interactive JSONL editor for Claude Code conversation files with real-time file system synchronization. Efficient prompt engineering through conversation editing.
+<!-- END gh-mutual-linking -->
